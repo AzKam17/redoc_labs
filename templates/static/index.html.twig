@@ -1,0 +1,417 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <style>
+        .no-text-transf{
+            text-transform: none !important;
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+    <section class="hero-banner hero-style-1">
+        <div class="single-banner-wrapper">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6">
+                        <div class="slide-contents">
+                            {#<div class="sub-title">
+                                <span>Digital Agency</span>
+                            </div>#}
+                            <h1 class="fs-lg">Vos futurs clients n'attendent que vous.</h1>
+                            <p>Laissez nous vous emmener dans le monde du digital</p>
+                            <a href="#storytelling" class="theme-btn">Devenez plus visible maintenant <i class="fal fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 pr-xl-0">
+                        <div class="hero-carousel-wrap">
+                            <div class="carousel-active owl-carousel">
+                                <div class="single-carousel-item bg-cover" style="background-image: url('http://placehold.jp/695x490.png')"></div>
+                            </div>
+                            <div class="dots"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social-link">
+                <h5>Follow</h5>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="storytelling" class="what-we-do section-padding section-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8 offset-lg-2 text-center">
+                    <div class="section-title mb-10">
+                        <h1 class="no-text-transf">Découvrez comment <br> Yves s'est ouvert au monde. </h1>
+                        <div class="sub-title no-text-transf">
+                            <span>Ses clients le trouvent plus beaucoup facilement.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="single-what-we-do">
+                        <div class="top">
+                            <div class="title">
+                                <h3>Yves, le plombier.</h3>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>
+                                Yves, est un plombier qui effectue son travail avec précision et rigueur, il a une clientèle fidéle qui est satisfaite de ses services.
+                                Il gagne suffisament mais désire faire grandir son activité et cela se traduit par 4 mots : <i><b>Attirer plus de clients</b></i>.
+                            </p>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="single-what-we-do">
+                        <div class="top">
+                            <div class="title">
+                                <h3>Attirer plus de clients.</h3>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>
+                                Yves souhaite attirer plus de clients.
+                                Il commence par distribuer des cartes de visites, flyers à ses clients qui <i><b>finissent généralement perdus</b></i>
+                                dans des portes documents ou dans les portefeuilles.
+                                Il passe par appels téléphoniques, mais il lui semble qu'il <i><b>n'agasse plus qu'il n'attire</b></i>.
+                                Il essaie de poster des photos de son activité sur facebook qui font finallement deux ou trois like au bout d'un mois.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="single-what-we-do">
+                        <div class="top">
+                            <div class="title">
+                                <h3>Internet.</h3>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>
+                                En regardant une émission télévisée, Yves apprend qu'internet lui permettrait de <i><b>résoudre son problème</b></i>.
+                                Le premier réflexe pour chercher un spécialiste c'est Internet et lui même se renseigne <i><b>d'abord sur Internet</b></i> et passe quelques heures sur internet chaque jour.
+                                Il décide donc de contacter un professionnel pour lui venir en aide.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="single-what-we-do">
+                        <div class="top">
+                            <div class="title">
+                                <h3>Serge, le spécialiste.</h3>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>
+                                Yves rentre en contact avec Serge, un spécialiste du web.
+                                Yves exprime à Serge ses différents problèmes et obstacles qu'il essaie de résoudre en passant par sur Internet.
+                                Yves et Serge travaillent <i><b>ensemble</b></i> à rendre Yves plus visible sur le web.
+                                En <i><b>augmentant sa présence</b></i> sur le web, <i><b>beaucoup plus de clients frappent à sa porte</b></i>, Yves en est <i><b>plus heureux et
+                                        agrandit son activité</b></i>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us-section section-padding pb-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 about_left_content pr-lg-0 pl-lg-5">
+                    <div class="section-title no-bg">
+                        <div class="sub-title">
+                            <span class="no-text-transf">Chaque seconde écoulée vous faire perdre de potentiels clients !</span>
+                        </div>
+                        <h1 class="no-text-transf">Comment nous vous aidons à atteindre vos objectifs.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolios-wrapper">
+        <div class="portfolio-grid">
+            <div class="single-portfolio-project">
+                <a href="#" class="featured-img">
+                    <img src="{{ asset("http://placehold.jp/360x270.png") }}" alt="">
+                </a>
+                <div class="content">
+                    <h3 class="mt-2"><a href="#">Contactez-nous</a></h3>
+                    <div class="project-cat mt-1">
+                        <span class="no-text-transf">Exprimez nous vos besoins, nous les analysons le mieux possible.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-portfolio-project">
+                <a href="#" class="featured-img">
+                    <img src="{{ asset("http://placehold.jp/360x270.png") }}" alt="">
+                </a>
+                <div class="content">
+                    <h3 class="mt-2"><a href="#">Proposition de solution</a></h3>
+                    <div class="project-cat mt-1">
+                        <span class="no-text-transf">
+                            Après analyse, nous vous revenons avec plusieurs propositions de solutions.
+                            Plus de maux de tête, nos solutions sont un package de la conception, à l'hébergement et au nom de domaine.
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-portfolio-project">
+                <a href="#" class="featured-img">
+                    <img src="{{ asset("http://placehold.jp/360x270.png") }}" alt="">
+                </a>
+                <div class="content">
+                    <h3 class="mt-2"><a href="#">Mise en œuvre </a></h3>
+                    <div class="project-cat mt-1">
+                        <span class="no-text-transf">Nous mettons en œuvre le plan d'action, vous observez l'avancement de notre travail en temps réel et nous faites des retours.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-portfolio-project">
+                <a href="#" class="featured-img">
+                    <img src="{{ asset("http://placehold.jp/360x270.png") }}" alt="">
+                </a>
+                <div class="content">
+                    <h3 class="mt-2"><a href="#">Maintenance et suivi </a></h3>
+                    <div class="project-cat mt-1">
+                        <span class="no-text-transf">Nous améliorons en continu le travail effectué.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section section-padding faq-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8 offset-lg-2 text-center">
+                    <div class="section-title mb-10">
+                        <h1 class="no-text-transf">Vous vous posez des questions ?</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="faq-content">
+                        <div class="faq-accordion">
+                            <div id="accordion" class="accordion">
+                                <div class="card">
+                                    <div class="card-header" id="faq1">
+                                        <p class="mb-0 text-capitalize">
+                                            <a class="collapsed" role="button" data-toggle="collapse" aria-expanded="false" href="#faq-1">
+                                                Vous ne savez pas par où commencer ?
+                                            </a>
+
+                                        </p></div>
+                                    <div id="faq-1" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Envoyez nous un mail ou laissez nous simplement uun message, nous serons ravis de vous lire.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="faq2">
+                                        <p class="mb-0 text-capitalize">
+                                            <a class="collapsed" role="button" data-toggle="collapse" aria-expanded="true" href="#faq-2">
+                                                Vous avez déjà un site internet ? des comptes sur les réseaux sociaux ?
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <div id="faq-2" class="collapse show" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Avoir un site web et/ou déjà des réseaux sociaux, n'est pas un problème.
+                                            <br>
+                                            Nous travaillons à vous contruire une présence sur Internet en accord avec vos objectifs et valeurs.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="faq3">
+                                        <p class="mb-0 text-capitalize">
+                                            <a class="collapsed" role="button" data-toggle="collapse" aria-expanded="false" href="#faq-3">
+                                                Comment savoir si ça marche ?
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <div id="faq-3" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Il suffit de juste nous laisser un message dans le formulaire ci-dessous.
+                                            <br>
+                                            Nous vous analyserons vos besoins et vous enverrons un plan à mettre oeuvre et tout cela <b>gratuitement</b>.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="faq4">
+                                        <p class="mb-0 text-capitalize">
+                                            <a class="collapsed" role="button" data-toggle="collapse" aria-expanded="false" href="#faq-4">
+                                                Vous avez déjà tout essayé ?
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <div id="faq-4" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Ecrivez nous un mail, nous vous ferons un retour gratuit. Vous ne perdez rien, à part quelques minutes à nous décrire votre problème 😊.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="faq5">
+                                        <p class="mb-0 text-capitalize">
+                                            <a class="collapsed" role="button" data-toggle="collapse" aria-expanded="false" href="#faq-5">
+                                                Vous avez d'autres besoins liés au digital ?
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <div id="faq-5" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Vous avez besoin d'une application mobile, d'un logiciel, de tout autre service digital, nous serons ravis de vous répondre 😊.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="faq6">
+                                        <p class="mb-0 text-capitalize">
+                                            <a class="collapsed" role="button" data-toggle="collapse" aria-expanded="false" href="#faq-6">
+                                                Combien ça coûte ?
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <div id="faq-6" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Pour nous chaque client est unique, nous vous fournissons un service en accord avec vôtre budget.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brand-carousel-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-20">
+                    <div class="section-title no-bg">
+                        <h1>Nos partenaires</h1>
+                        <div class="sub-title">
+                            <span class="no-text-transf">Ils nous font confiance.</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-12">
+                    <div class="brand-logo-carousel owl-carousel">
+                        <div class="single-brand-logo">
+                            <img src="{{ asset("http://placehold.jp/225x55.png") }}" alt="">
+                        </div>
+                        <div class="single-brand-logo">
+                            <img src="{{ asset("http://placehold.jp/225x55.png") }}" alt="">
+                        </div>
+                        <div class="single-brand-logo">
+                            <img src="{{ asset("http://placehold.jp/225x55.png") }}" alt="">
+                        </div>
+                        <div class="single-brand-logo">
+                            <img src="{{ asset("http://placehold.jp/225x55.png") }}" alt="">
+                        </div>
+                        <div class="single-brand-logo">
+                            <img src="{{ asset("http://placehold.jp/225x55.png") }}" alt="">
+                        </div>
+                        <div class="single-brand-logo">
+                            <img src="{{ asset("http://placehold.jp/225x55.png") }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form-wrapper section-padding pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-20">
+                    <div class="section-title no-bg">
+                        <h1>Obtenez une analyse gratuite</h1>
+                        <div class="sub-title">
+                            <span class="no-text-transf">Nous vous répondons au plus vite.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-12">
+                    <div class="contact-form">
+                        <form action="#" class="row conact-form">
+                            <div class="col-md-6 col-12">
+                                <div class="single-personal-info">
+                                    <label for="fname">Nom & Prénoms</label>
+                                    <input type="text" id="fname" placeholder="Nom & Prénoms">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="single-personal-info">
+                                    <label for="email">Addresse email</label>
+                                    <input type="email" id="email" placeholder="Addresse email">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="single-personal-info">
+                                    <label for="phone">Numéro de téléphone</label>
+                                    <input type="text" id="phone" placeholder="Numéro de téléphone">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="single-personal-info">
+                                    <label for="subject">Sujet du message</label>
+                                    <input type="text" id="subject" placeholder="Sujet du message">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-12">
+                                <div class="single-personal-info">
+                                    <label for="subject">Message</label>
+                                    <textarea id="subject" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-12">
+                                <div class="single-personal-info">
+                                    <label for="subject">Ajouter une pièce jointe.</label>
+                                    <input class="btn-lg no-text-transf" type="file" value="Ajouter une pièce jointe." style="background-color: black;">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-12 text-center">
+                                <input class="submit-btn no-text-transf" type="submit" value="Envoyez mon message">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

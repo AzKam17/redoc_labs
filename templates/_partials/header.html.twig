@@ -1,0 +1,50 @@
+<header class="header-wrap header-1">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-xl-2 col-6 col-md-4 col-lg-3">
+                <div class="logo">
+                    <a href="{{ path("index") }}"><img src="{{ asset("http://placehold.jp/183x35.png") }}" alt="Redoc Labs"></a>
+                </div>
+            </div>
+            <div class="col-xl-8 p-lg-0 col-lg-7 d-none d-lg-block">
+                <div class="main-menu">
+                    <ul>
+                        <li><a href="{{ path("index") }}">Accueil</a></li>
+                        <li><a href="{{ path('site:about') }}">Qui sommes nous ?</a></li>
+                        <li><a href="{{ path("site:contact") }}">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-7 d-none d-md-block text-right">
+                <a href="{{ path("site:contact") }}" class="theme-btn promo-btn">Démarrer maintenant</a>
+            </div>
+            <div class="col-6 col-md-1 d-lg-none d-block pl-0">
+                <div class="mobile-nav-wrap">
+                    <div id="hamburger">
+                        <i class="fal fa-bars"></i>
+                    </div>
+                    <!-- mobile menu - responsive menu  -->
+                    <div class="mobile-nav">
+                        <button type="button" class="close-nav">
+                            <i class="fal fa-times-circle"></i>
+                        </button>
+                        <nav class="sidebar-nav">
+                            <ul class="metismenu" id="mobile-menu">
+                                <li><a href="{{ path("index") }}">Accueil</a></li>
+                                <li><a href="{{ path('site:about') }}">Qui sommes nous ?</a></li>
+                                <li><a href="{{ path("site:contact") }}">Contact</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="action-bar">
+                            <a href="mailto:{{contact_mail_address}}"><i class="fal fa-envelope"></i>{{contact_mail_address}}</a>
+                            <a href="tel:{{ contact_phone }}"><i class="fal fa-phone"></i>{{ contact_phone }}1</a>
+                            <a href="#" class="theme-btn promo-btn">Démarrer maintenant</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div>
+        </div>
+    </div>
+</header>

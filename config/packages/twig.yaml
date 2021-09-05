@@ -1,0 +1,10 @@
+twig:
+    default_path: '%kernel.project_dir%/templates'
+
+    globals:
+        contact_mail_address: 'contact@redoc.com'
+        contact_phone: '+225 07 69 83 83 41'
+
+when@test:
+    twig:
+        strict_variables: true

@@ -1,0 +1,73 @@
+<footer class="footer-wrap footer-1">
+    <div class="footer-widgets">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xl-2 col-12">
+                    <div class="single-footer-wid site-info-widget">
+                        <div class="wid-title">
+                            <h4>Contacts</h4>
+                        </div>
+                        <div class="contact-info">
+                            <p>{{ contact_mail_address }}</p>
+                            <p>{{ contact_phone }}</p>
+                        </div>
+                    </div>
+                </div> <!-- /.col-lg-3 - single-footer-wid -->
+                <div class="col-md-5 col-xl-3 col-12">
+                    <div class="single-footer-wid">
+                        <div class="wid-title">
+                            <h4>Plus de pages</h4>
+                        </div>
+                        <div class="special-menu">
+                            <ul>
+                                <li><a href="#">Qui sommes nous ?</a></li>
+                                <li><a href="#">Nos services</a></li>
+                                <li><a href="{{ path("site:contact") }}">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- /.col-lg-3 - single-footer-wid -->
+                <div class="col-md-6 col-xl-3 col-12">
+                    <div class="single-footer-wid news_subscribe_box">
+                        <div class="wid-title">
+                            <h4>Newsletter.</h4>
+                        </div>
+                        <form action="#">
+                            <input type="email" placeholder="🖂 Entre votre adresse email">
+                            <button type="submit" class="theme-btn">Souscrire<i class="fal fa-long-arrow-right"></i></button>
+                            {#<p>** We are not gonna spamming</p>#}
+                        </form>
+                    </div>
+                </div> <!-- /.col-lg-3 - single-footer-wid -->
+
+                <div class="col-md-6 col-xl-4 col-12">
+                    <div class="single-footer-wid site_info_widget">
+                        <div class="site-logo">
+                            <a href="{{ path("index") }}"><img src="{{ asset("http://placehold.jp/119x28.png") }}" alt="w_logo"></a>
+                            <p>Reimagining brand identities and business model approaches. We build an successful, lasting, profitable products.</p>
+                        </div>
+                        <div class="social-link">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div> <!-- /.col-lg-3 - single-footer-wid -->
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12 text-center">
+                    <div class="copyright-info">
+                        <p>&copy; <a href="{{ path('index') }}">Redoc Labs</a> Digital agency - {{ "now" | date("Y") }}. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
